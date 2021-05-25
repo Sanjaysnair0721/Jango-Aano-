@@ -1,5 +1,9 @@
 # Jango Aano?
 The project is a binary image classifier to classy images of mango and jackfruit, also it can detect whether the image is neither of the two. it returns the output with a decent accuracy. We did the project using pytorch in google colab . We have used images downloaded from google images and kaggle after saving it in our google drive. We have used a simple Lenet 5 based CNN architecture to imp-lement the model
+The link for dataset from google drive:  https://drive.google.com/drive/folders/1BzkwvN86s5fE2Mxhz6jFq6Bq2_8XPwdA?usp=sharing
+                    
 ## Team members
 1. Sanjana A R [https://github.com/Sanj112]
 2. Sanjay s Nair[Embed perosnal github URL]
+
+
