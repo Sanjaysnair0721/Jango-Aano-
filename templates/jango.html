@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<style>
+
+body {
+  background: blue,
+  color:black;
+  text-align: center;
+  font-family: verdana;
+  font-size: 1em;
+}
+
+h1 {
+  color: darkgreen;
+  text-align: center;
+  font-size:30px;
+}
+
+
+</style>
+<script>
+function Get_Results() {
+
+  document.getElementById("demo").innerHTML = "Your Result is loading"+"Stay_tuned...";
+
+}
+</script>
+<title>Jango Aano?</title>
+
+Know whether it is a Jackfruit or mANGO @ jango_aano.com
+<h1>Jango Aano?</h1>
+
+</head>
+<body>
+
+<section>
+    <div class="jango">
+    	<br>
+    	<form method="get" action="{{url_for('predict')}}">
+    	<br>
+	Grab an url and paste it here to know whether the image is a Jackfruit or mANGO or none of them <br>
+	<input type="url" name='source' placeholder="enter url">
+	<br>
+	<input  type ="submit" value = "predict">
+	<p id="demo"></p>
+
+</form>
+</section>
+{{ prediction_text }}
+</body>
+</html>
